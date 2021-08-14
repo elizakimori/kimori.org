@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE muclient>
+
+<muclient>
+<plugin name="IkkesPlayersOnline" author="Eliza Kimori" id="5ab33f10546C9088b4202691" language="JScript" purpose="show window with who is online" save_state="y" date_written="2021-08-14 17:41:03" requires="5.06" version="1.0" />
+<triggers>
+  <trigger
+   custom_colour="0"
+   enabled="y"
+   match="*[* enters Discworld*]"
+   name="poAddEntry"
+   script="poAddEntryScript"
+   sequence="100"
+   variable="poAddEntryVariable"
+  >
+  </trigger>
+  <trigger
+   custom_colour="0"
+   enabled="y"
+   match="*[* leaves Discworld*]"
+   name="poDelEntry"
+   script="poDelEntryScript"
+   sequence="100"
+   variable="poDelEntryVariable"
+  >
+  </trigger>
+</triggers>
+<script>
+<![CDATA[
+/* init */
+world.setVariable("po_players", "");
+var po_players = {};
+po_players.playerlist = [];
+
+
+function alert(str) {
+	//world.Note(str);
+}
+
+function poDelEntryScript(somevar) { 
+	var entry = poGetEntryScript("del",somevar);
+	po_delEntry(entry[0],entry[1]);
+}
+function poAddEntryScript(somevar) { 
+	var entry = poGetEntryScript("add",somevar);
+	po_addEntry(entry[0],entry[1]);
+}
+function poGetEntryScript(action,somevar) { 
+	var totalLines = world.GetLinesInBufferCount(); 
+	var matchText = GetLineInfo(totalLines, 1); 
+	alert(matchText); 
+	alert("arguments: "+ arguments[0]+", "+arguments[1]+", "+arguments[2]);
+	var text = matchText;
+	alert("text:["+text+"]");
+
+	var strpos = action === "add" ? text.indexOf(" enters Discworld") : text.indexOf(" leaves Discworld");
+	alert("position found: " + strpos);
+	var name = text.substr(1,strpos);
+	alert("found name: "+name);
+	var isFriend = text.indexOf(" Discworld --") > -1;
+	return([name,{"action": action, "name": name, "isFriend": isFriend, "_matchText": matchText }]);
+}
+function po_addEntry(name,opts) {	
+	po_players.playerlist[name]=opts;
+	showState();
+}
+function po_delEntry(name,opts) {
+	if ( typeof po_players.playerlist[name] !== 'undefined' ) {
+		delete po_players.playerlist[name];
+	}
+	showState();
+}
+
+
+
+function showState() {
+	var msg = "";
+	var player = null;
+	var opt = {};
+	var cnt = 0;
+	for (var name in po_players.playerlist) { 
+		cnt++;
+		opt = po_players.playerlist[name];
+		var isFriend = opt.isFriend;
+		msg = msg + " "+( isFriend ? "+" : "-" )+" " + name + "\n";
+	}
+	msg = "Players online: "+cnt+"\n" + msg; 
+
+	world.Note(msg);
+}
+
+]]>
+</script>
+</muclient>
