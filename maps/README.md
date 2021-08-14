@@ -1,1 +1,1 @@
-![image](am.png-thumb.png) am.png
+![image](am.png-thumb.png) [am.png](am.png)
