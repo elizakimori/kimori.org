@@ -1,0 +1,98 @@
+'Defensive Wizard Spell Nicknames
+nickname Chrenedict's Corporeal Covering as ccc
+nickname Endorphin's Floating Friend as eff
+nickname Grisald's Reanimated Guardian as grg
+nickname Heezlewurst's Elemental Buffer as heb
+nickname Kipperwald's Perlustration Prevention as kpp
+nickname Sageroff's Sentry Summoning as sss2
+nickname Sageroff's Sentry Summoning as sssu
+nickname Sorklin's Field of Protection as sfp
+nickname Transcendent Pneumatic Alleviator as tpa
+'Offensive Wizard Spell Nicknames
+nickname Calm Embrace of Illusionary Beauty as ceib
+nickname Doctor Kelleflump's Deadly Demon as dkdd
+nickname Effermhor's Hypersonic Assault as eha
+nickname Fiddelmaker's Auriferous Embrace as fae
+nickname Frygellhan's Fiendish Orbit Disruptor as ffod
+nickname G'flott's Olfactory Nightmare as gon
+nickname Journey of the Heavenly Storm Dragon as jhsd
+nickname Kamikaze Oryctolagus Flammula as kof
+nickname Kelleflump's Irritating Demon as kid
+nickname Malich's Penetrating Ocular Lance as mpol
+nickname Memories of a Vicious Chicken as mvc
+nickname Mugwuddle's Muddling Mirage as mmm
+nickname Myrandil's Vicious Seizure as mvs
+nickname Nargl'frob's Empyrean Spear as nes
+nickname Narquin's Mist of Doom as nmd
+nickname Old Bellicus' Brazen Knuckles as obbk
+nickname Pragi's Fiery Gaze as pfg
+nickname Pragi's Lost Gaze as plg
+nickname Reckless Encouragement of Arcane Peacock as reap
+nickname Rugged Victor's Rodentia Vivisection as rvrv
+nickname Skeetbraskin's Fuliginous Perdition as sfp2
+nickname Skeetbraskin's Fuliginous Perdition as sfper
+nickname Sorsalsean's Seismic Eruption as sse
+nickname Stacklady's Morphic Resonator as smr
+nickname Von Hasselhoff's Skin Condition as vhsc
+nickname Wonker's Wicked Wobble as www
+nickname Wungle's Body Part Suggestion as wbps
+nickname Wungle's Great Sucking as wgs
+'Miscellaneous Wizard Spell Nicknames
+nickname A Cup of Tea and Sake as cts
+nickname Al'Hrahaz's Scintillating Blorpler as ahsb
+nickname Amazing Silicate Blorpler as asb
+nickname Atmospheric Inscription Wonder as aiw
+nickname Bifram's Amazing Fireworks as baf
+nickname Booch's Extremal Polymorphism as bep
+nickname Boolywog's Forbidden Pleasures as bfp
+nickname Brassica Oleracea Ambulata as boa
+nickname Brother Happalon's Elementary Enchanting as bhee
+nickname Cherry Blossoms in Bloom as cbb
+nickname Collatrap's Instant Pickling Stick as cips
+nickname Crondor's Fabulous Detection as cfd
+nickname Crondor's Marvellous Sequestration as cms2
+nickname Crondor's Marvellous Sequestration as cmseq
+nickname Crondor's Mysterious Sparkling as cms
+nickname Dismal Digit of Doom as ddd
+nickname Doctor Worblehat's Flaming Primate Premonition as dwfpp
+nickname Duander's Thaumic Luminosity Disperser as dtld
+nickname Ellamandyr's Hyaline Amulet as eha2
+nickname Ellamandyr's Hyaline Amulet as eham
+nickname Ellamandyr's Hyaline Amulet as ehai
+nickname Eringyas' Surprising Bouquet as esb
+nickname Fabrication Classification Identification as fci
+nickname Finneblaugh's Thaumic Float as ftf
+nickname Floron's Fabulous Mirror as ffm
+nickname Friddlefrod's Hydratic Extrusion as fhe
+nickname Fyodor's Nimbus of Porterage as fnp
+nickname Gillimer's Ring of Temperate Weather as grtw
+nickname Grisald's Chilly Touch as gct
+nickname Gryntard's Feathery Reliever as gfr
+nickname Independent Recurring Vocaliser as irv
+nickname Jogloran's Portal of Cheaper Travel as jpct
+nickname Jorodin's Magnificent Communicator as jmc
+nickname Malich's AshkEnte Circle as mac
+nickname Malich's AshkEnte Summoning Incantation as masi
+nickname Master Glimer's Amazing Glowing Thing as mgagt
+nickname Master Woddeley's Luminescent Companion as mwlc
+nickname Myrandil's Mask of Death as mmd
+nickname Narquin's Hand of Acquisition as nha
+nickname Objandeller's Thaumic Funnel as otf
+nickname Patient Taming of the Quantum Weather Butterfly as ptqwb
+nickname Polliwiggle's Puissancy Probe as ppp
+nickname Pragi's Molten Gaze as pmg
+nickname Professor Flambardie's Grim Amulet as pfga
+nickname Rubayak's Power Dispenser as rpd
+nickname Rubayak's Power Storage as rps
+nickname Scolorid's Scintillating Scribbling as sss
+nickname Thousand Dancing Celestial Fates as tdcf
+nickname Torqvald's Illusion Generatrix as tig
+nickname Torqvald's Many Colours as tmc
+nickname Turnwhistle's Effulgent Autiridescence as tea
+nickname Union of the Phoenix and Divine Dragon as updd
+nickname Worstler's Advanced Metallurgical Glance as wamg
+nickname Worstler's Elementary Mineralogical Glance as wemg
+nickname Wurphle's Midnight Snack as wms
+nickname Wurphle's Packed Lunch as wpl
+nickname Yordon's Extremal Extension as yee
+
