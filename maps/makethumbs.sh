@@ -20,27 +20,3 @@ for x in *.png; do
 done
 
 
-
-
-###main() {
-###revnam="" 
-###   for x in *.png; do
-###   	  revnam="$(revstr ${x})"
-###   	  echo lastchars:
-###   	  echo ${revnam: -4}
-###   done
-###}
-###
-###revstr() { 
-###   x="$@"
-###   len="$(printf '%s' "${#x}")"
-###   while [ $len -ne 0 ]
-###   do
-###           y=$y`echo $x | cut -c $len`
-###   	        ((len--))
-###   	done
-###   	printf '%s' "$y"
-###   
-###}
-###
-###main
