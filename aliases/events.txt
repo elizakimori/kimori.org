@@ -1,0 +1,1 @@
+alias ev $ifarg:events view $*$;$else$events list;frimble type 'ev <event name>' for details.$endif$
