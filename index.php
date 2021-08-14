@@ -31,11 +31,45 @@ body,html{
 	color: white;
 	line-height: 1.3em;
 }
-
+.logo {
+	position: relative;
+	display: block;
+	width: 534px;
+	height: 460px;
+	background: black;
+	background-image: url("maps/discwhole.png-thumb.png");
+	border: 0;
+	text-align: left;
+	font-size: 1.3em;
+	color: white;
+}
+.logo a,.logo a:visited {
+	color: white;
+	letter-spacing: -0.03em;
+	font-size: 0.8em;
+	text-decoration: none;
+}
+.logo a:hover {
+	text-decoration: underline;
+}
+.padder {
+	padding: 8px;
+}
 </style>
 		</head>
 		<body>
 <div id=links>
+<div class=logo>
+<center>
+<div class=padder>
+The Discworld MUD<br>
+<i>a tribute to the works of Terry Pratchett</i><br>
+</div>
+</center>
+<br>
+<br>
+<a href="https://discworld.starturtle.net">&nbsp;&gt;&nbsp;play now</a><br>
+</div>
 	<a href="mcsweeney/">mcsweeney menu alias generator</a><br/>
 	<a href="aliases/speedwalks-pumpkintown.txt">Pumpkin town walkthrough alias (paste in after skip, run 'ptwalk' to execute)</a><br/>
 	<a href="maps/">decorated airk/kefka/quow maps (mush compatible)</a><br/>
