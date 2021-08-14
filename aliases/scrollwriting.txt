@@ -1,0 +1,73 @@
+'some aliases to assist in the writing of scrollpacks, requires the common spell nicknames to be set and dependencies.txt (and tries not to waste or generate too much unused empty sheets in the process)
+'it consumes quils,chapbooks and paper packets, keep them in your main pack/unpack storage. Before adding the chapbooks, open them up to page 1
+
+
+
+'"qscr <spellname>" eg "qscr tpa" - writes given spellname to scroll and cleans up
+alias qscr scr.generic s.$*$ $*$
+alias scr.generic unpack chapbook;unpack paper;unpack quill;hold quill;db closed chapbook;pack paper,chapbook;tear page from chapbook;pack paper;unpack paper;scr $1$ $2*$;drop closed chapbooks;bury closed chapbooks;pack chapbook;pack papers except scrolls;pack quill
+
+
+
+
+
+
+'some lazyman shortcuts, for those who prefer to be spoon fed 
+alias scr.ahsb scr.generic s.ahsb Al'Hrahaz's Scintillating Blorpler $*$
+alias scr.aiw scr.generic s.aiw Atmospheric Inscription Wonder $*$
+alias scr.baf scr.generic s.baf Bifram's Amazing Fireworks $*$
+alias scr.beo scr.generic s.bep Booch's Extremal Polymorphism $*$
+alias scr.bep scr.generic s.bep Booch's Extremal Polymorphism $*$
+alias scr.bfp scr.generic s.bfp Boolywog's Forbidden Pleasures $*$
+alias scr.bhee scr.generic s.bhee Brother Happalon's Elementary Enchanting $*$
+alias scr.boa scr.generic s.boa Brassica Oleracea Ambulata $*$
+alias scr.cbb scr.generic s.cbb Cherry Blossoms in Bloom $*$
+alias scr.ccc scr.generic s.ccc Chrenedict's Calcareous Covering $*$
+alias scr.ceib scr.generic s.ceib Calm Embrace of Illusionary Beauty $*$
+alias scr.cips scr.generic s.cips Collatrap's Instant Pickling Stick $*$
+alias scr.cts scr.generic s.cts A Cup of Tea and Sake $*$
+alias scr.dtld scr.generic s.dtld Duander's Thaumic Luminosity Disperser $*$
+alias scr.eff scr.generic s.eff Endorphin's Floating Friend $*$
+alias scr.eha scr.generic s.eha Effermhor's Hypersonic Assault $*$
+alias scr.fci scr.generic s.fci Fabrication Classification Identification $*$
+alias scr.ffod scr.generic s.ffod Frygellhan's Fiendish Orbit Disruptor $*$
+alias scr.fhe scr.generic s.fhe Friddlefrod's Hydratic Extrusion $*$
+alias scr.fnp scr.generic s.fnp Fyodor's Nimbus of Porterage $*$
+alias scr.ftf scr.generic s.ftf Finneblaugh's Thaumic Float $*$
+alias scr.gfr scr.generic s.gfr Gryntard's Feathery Reliever $*$
+alias scr.gon scr.generic s.gon G'flott's Olfactory Nightmare $*$
+alias scr.heb scr.generic s.heb Heezlewurst's Elemental Buffer $*$
+alias scr.irv scr.generic s.irv Independent Recurring Vocaliser $*$
+alias scr.jhsd scr.generic s.jhsd Journey of the Heavenly Storm Dragon $*$
+alias scr.jpct scr.generic s.jpct Jogloran's Portal of Cheaper Travel $*$
+alias scr.kid scr.generic s.kid Kelleflump's Irritating Demon $*$
+alias scr.kof scr.generic s.kof Kamikaze Oryctolagus Flammula $*$
+alias scr.mgagt scr.generic s.mgagt Master Glimer's Amazing Glowing Thing $*$
+alias scr.mgamgt scr.generic s.mgamgt Master Glimer's Amazing Glowing Thing $*$
+alias scr.mmm scr.generic s.mmm Mugwuddle's Muddling Mirage $*$
+alias scr.mwlc scr.generic s.mwlc Master Woddeley's Luminescent Companion $*$
+alias scr.nes scr.generic s.nes Nargl'frob's Empyrean Spear $*$
+alias scr.nmd scr.generic s.nmd Narquin's Mist of Doom $*$
+alias scr.obbk scr.generic s.obbk Old Bellicus' Brazen Knuckles $*$
+alias scr.otf scr.generic s.otf Objandeller's Thaumic Funnel $*$
+alias scr.pfg scr.generic s.pfg Pragi's Fiery Gaze $*$
+alias scr.pfga scr.generic s.pfga Professor Flambardie's Grim Amulet $*$
+alias scr.plg scr.generic s.plg Pragi's Lost Gaze $*$
+alias scr.reap scr.generic s.reap Reckless Encouragement of Arcane Peacock $*$
+alias scr.rps scr.generic s.rps Rubayak's Power Storage $*$
+alias scr.rvrv scr.generic s.rvrv Rugged Victor's Rodentia Vivisection $*$
+alias scr.smr scr.generic s.smr Stacklady's Morphic Resonator $*$
+alias scr.sse scr.generic s.sse Sorsalsean's Seismic Eruption $*$
+alias scr.sss scr.generic s.sss Scolorid's Scintillating Scribbling $*$
+alias scr.tdcf scr.generic s.tdcf Thousand Dancing Celestial Fates $*$
+alias scr.tea scr.generic s.tea Turnwhistle's Effulgent Autiridescence $*$
+alias scr.tig scr.generic s.tig Torqvald's Illusion Generatrix $*$
+alias scr.tpa scr.generic s.tpa Transcendent Pneumatic Alleviator $*$
+alias scr.updd scr.generic s.updd Union of the Phoenix and Divine Dragon $*$
+alias scr.wamg scr.generic s.wamg Worstler's Advanced Metallurgical Glance $*$
+alias scr.wgs scr.generic s.wgs  Wungle's Great Sucking $*$
+alias scr.wms scr.generic s.wms Wurphle's Midnight Snack $*$
+alias scr.yee scr.generic s.yee Yordon's Extremal Extension $*$
+
+
+
