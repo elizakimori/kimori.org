@@ -1,0 +1,41 @@
+" STARTING SETUP OF ALIASES, first some general utilities:
+
+alias go alias _go $*$; _go
+'"go" allows you to type speedwalks like "go e;e;e;s;w;search;e" or whotnot
+
+alias 1x $*$;
+alias 2x $*$;$*$;
+alias 3x $*$;$*$;$*$;
+alias 4x $*$;$*$;$*$;$*$;
+alias 5x $*$;$*$;$*$;$*$;$*$;
+alias 6x $*$;$*$;$*$;$*$;$*$;$*$;
+alias 7x $*$;$*$;$*$;$*$;$*$;$*$;$*$;
+alias 8x $*$;$*$;$*$;$*$;$*$;$*$;$*$;$*$;
+alias 9x $*$;$*$;$*$;$*$;$*$;$*$;$*$;$*$;$*$;
+alias 10x $*$;$*$;$*$;$*$;$*$;$*$;$*$;$*$;$*$;$*$;
+'"1x, 2x, 3x,.." repeats so you can spam the same command a couple times in a row; eg "4x search gold"
+
+alias sb score brief
+'"sb" shows your most important stats
+
+alias m map door text
+'"m" shows what's around you
+
+" now some storage related shortcuts and nicknames: 
+
+nickname black backpack as STORAGE
+nickname crude string bag as TOOLBAG
+"modify these nicknames to match your setup! set nickname STORAGE to your lootcontainer and  toolbag to things you need
+alias pack put $*$ in every STORAGE
+alias unpack get $*$ from every STORAGE
+alias bag put $*$ in every TOOLBAG
+alias unbag get $*$ from every TOOLBAG
+alias debag unbag
+alias lsbag open every TOOLBAG;condition things in every TOOLBAG;close every TOOLBAG
+alias lspack open every STORAGE;condition things in every STORAGE;close every STORAGE
+'"unpack pack, bag, debag unbag, lsbag.." commands to easily get or inspect stuff in your containers 
+
+
+
+hsay
+'concludes the summary, enjoy!

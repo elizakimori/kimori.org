@@ -1,0 +1,295 @@
+The open orange textbook is already open at page 1.
+You read page one of the open orange textbook:
+                           
+ Table of Contents:        
+ Common Nouns.............2
+ Common Verbs.............3
+ Advanced Nouns...........4
+ Advanced Verbs...........5
+ Useful Phrases...........6
+                           
+                           
+ Notice:                           
+                                   
+ This book is the property of the Djelian Language School and must be treated with respect.
+ Damages to this book will be deducted from your deposit.
+ Books are issued to specific students.  If this is not your textbook please return it immediately to the school.
+
+You turn the orange textbook to page 2.
+You read page two of the orange textbook:
+                           
+ COMMON NOUNS:             
+                           
+                           
+ Djelian -> Morporkian  (Pronunciation Guide) 
+
+ cabbage ->
+ CAEBBAGJIVS ( caebbagjius )
+
+ torch ->
+ TORTRIVM ( tortrium )
+
+ beer mug ->
+ SIIOR MVBNIAL ( siior mubnial )
+
+ cat ->
+ FELVS ( felus )
+
+ dog ->
+ CANVS ( canus )
+
+ horse ->
+ EQVVS ( equus )
+
+ onion ->
+ ONIINIFERORVM ( oniiniferorum )
+
+ thief ->
+ FVR ( fur )
+
+ shirt ->
+ IRT ( irt )
+
+ shoe ->
+ OE ( oe )
+
+ boot ->
+ TABSTVO ( tabstuo )
+
+ hat ->
+ HDO ( hdo )
+
+ temple ->
+ TEMPILIS ( tempilis )
+
+ priest ->
+ SACERDOS ( sacerdos )
+
+ priestess ->
+ OPRIESTETTAT ( opriestettat )
+
+ flower ->
+ FLIIOR ( fliior )
+
+ rose ->
+ ROSEVS ( roseus )
+
+ newspaper ->
+ NEWSPAANIIIOR ( newspaaniiior )
+
+ iconograph ->
+ ICONOGRAPCIVS ( iconograpcius )
+
+ palace ->
+ PALACTIO ( palactio )
+
+ garden ->
+ GAERDEINIAL ( gaerdeinial )
+
+ musician ->
+ MVSICIANVS ( musicianus )
+
+ singer ->
+ LVDAIIOR ( ludaiior )
+
+ dancer ->
+ DAENHIIIOR ( daenhiiior )
+
+ tourist ->
+ TOVRISEIVS ( touriseius )
+
+ carriage ->
+ CAERRIAGJIVS ( caerriagjius )
+
+ tree ->
+ TARDIVM ( tardium )
+
+ mountain ->
+ MOVNTAINVS ( mountainus )
+
+ lake ->
+ LAEKJIVM ( laekjium )
+
+ house ->
+ AEVSVS ( aeusus )
+
+ girl ->
+ PVELLFIVM ( puellfium )
+
+ woman ->
+ OPEHOMONID ( opehomonid )
+
+ garbage ->
+ GAERBAGJIVS ( gaerbagjius )
+
+ theatre ->
+ CHEATRI ( cheatri )
+
+You read page three of the orange textbook:
+                           
+ COMMON VERBS:             
+                           
+                           
+ Djelian -> Morporkian  (Pronunciation Guide) 
+
+ run ->
+ FLVO ( fluo )
+
+ sit ->
+ SEO ( seo )
+
+ stand ->
+ STANIIVM ( staniium )
+
+ eat ->
+ EDO ( edo )
+
+ drink ->
+ DRINTRALI ( drintrali )
+                          You turn the orange textbook to page 4.
+You read page four of the orange textbook:
+                           
+ ADVANCED NOUNS:             
+                           
+                           
+ Djelian -> Morporkian  (Pronunciation Guide) 
+
+ chit ->
+ CEMEO ( cemeo )
+
+ corpse ->
+ LEGRPPAX ( legrppax )
+
+ temple ->
+ TEMPILIS ( tempilis )
+
+ priest ->
+ SACERDOS ( sacerdos )
+
+ priestess ->
+ OPRIESTETTAT ( opriestettat )
+
+ palace ->
+ PALACTIO ( palactio )
+
+ assassin ->
+ SICARIVS ( sicarius )
+
+ spy ->
+ SAP ( sap )
+
+ jewel ->
+ GEMMA ( gemma )
+
+ ball ->
+ GLOBVS ( globus )
+
+ knife ->
+ SCIFE ( scife )
+
+ sword ->
+ SWORIIVS ( sworiius )
+
+ scimitar ->
+ SCIMITARIS ( scimitaris )
+
+ thief ->
+ FVR ( fur )
+
+ god ->
+ EO ( eo )
+
+ goddess ->
+ OGODDETTAT ( ogoddettat )
+
+ pottery ->
+ POTTO ( potto )
+
+ robe ->
+ ROBVS ( robus )
+
+ column ->
+ LEGLVMN ( leglumn )
+                           
+You turn the orange textbook to page 5.
+You read page five of the orange textbook:
+                           
+ ADVANCED VERBS:             
+                           
+                           
+ Djelian -> Morporkian  (Pronunciation Guide) 
+
+ preach ->
+ PRAEATRIVM ( praeatrium )
+
+ flee ->
+ FARDIVM ( fardium )
+
+ scream ->
+ SCREAHNIAL ( screahnial )
+
+ worship ->
+ OPERSHLIO ( opershlio )
+
+ ventisepelate ->
+ VENTISEPELEO ( ventisepeleo )
+
+ farm ->
+ REMOTVS ( remotus )
+                           
+
+
+You turn the orange textbook to page 6.
+You read page six of the orange textbook:
+                           
+ USEFUL PHRASES:             
+                           
+                           
+ Djelian -> Morporkian  (Pronunciation Guide) 
+
+ Have you any carrots? ->
+ HARBES ID QVIS CARRSTVAT? ( Harbes id quis carrstuat? )
+
+ Why is your knife stuck in my back? ->
+ QVARE SVMIT TVVS SCIFE SRTVCHIVM IN MEVS BRACHIVM? ( Quare sumit tuus scife srtuchium in meus brachium? )
+
+ Is that the famous troll bar? ->
+ SVMITI ILLE FAMORVMI TROLGIVM BARIS? ( Sumiti ille famorumi trolgium baris? )
+
+ Where can I buy a cheap meal? ->
+ QVA POSSVM  EMO CEMEAP MEALIS? ( Qua possum  emo cemeap mealis? )
+
+ Hello, how are you today? ->
+ AVETE, QVAM SVMO ID TODFIEVS? ( Avete, quam sumo id todfieus? )
+
+ Where is the closest temple? ->
+ QVA SVMIT CLOSESEIVS TEMPILIS? ( Qua sumit closeseius tempilis? )
+
+ I am lost.  Can you help me? ->
+ SVM LOSEIVS. POSSVM ID HELAIVM EGO? ( sum loseius. Possum id helaium ego? )
+
+ That beggar stole my shoes! ->
+ ILLE BEGGARIS STOILIS MEVS OOS! ( Ille beggaris stoilis meus oos! )
+
+ Where did you get that enormous dress? ->
+ QVA AGAVI ID GEENIAL ILLE ENORMORVMI ODRETTAT? ( Qua agavi id geenial ille enormorumi odrettat? )
+
+ The trees here are quite lovely at this time of year. ->
+ TARDIVMI HERI SVMO QVITA AMOEVS AD HOC TEMPVS AT YEARIS. ( tardiumi heri sumo quita amoeus ad hoc tempus at yearis. )
+
+ I like to eat watermelons. ->
+ SIMILARIS AD EDO WATERMELINIFERORVMI. ( similaris ad edo watermeliniferorumi. )
+
+ Do you sell garlic sausages? ->
+ AGO ID VENDO GARLICVM SAVSAGJII? ( Ago id vendo garlicum sausagjii? )
+
+ I would like to buy two short swords please. ->
+ OPEVLD SIMILARIS AD EMO DVO PARVVS SWORDI PLACEO. ( opeuld similaris ad emo duo parvus swordi placeo. )
+
+ Thank you for your help, sir. ->
+ CHANTRALI ID PRO TVVS HELAIVM, SICNIAL. ( Chantrali id pro tuus helaium, sicnial. )
+
+ Are you a watchman? ->
+ SVMO ID CVSTOS? ( Sumo id custos? )
+                           
+

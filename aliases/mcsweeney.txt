@@ -1,0 +1,11 @@
+"SETUP ALIASES to do the mcsweeney kitchen mission
+alias mcingredients frimble %^BOLD%^Ingredients:%^RESET%^ pork chowmein rib dibbler chowmein chopsuey rat pork noodles rice bits kebab prawn $*$
+alias mckitchencommands frimble %^BOLD%^Commands:%^RESET%^ mcfetch mcfry mcprep i$*$
+alias mcjoin mcjoinkitchen
+alias mcjoinkitchen join in kitchen;frimble zzZ;frimble %^BOLD%^frimble Now if above says they don't require anyone anymore for that shift, feel free to type 'stop' and try to mcjoincounter or mcjoincleaning%^RESET%^;frimble zZz;frimble z;frimble Zzz;frimble zzZ;frimble zZz;get all from desk;frimble z;eq;frimble Zzz;frimble zZz;frimble zzZ;frimble %^BOLD%^LOOK HERE! Check that your inventory is empty:%^RESET%^;i;nod;frimble Zzz;frimble zZz;frimble Zzz;check orders;mckitchencommands;mcingredients $*$
+alias mcfry get things from griddle;get noodles&rice from vats;put boxes on griddle; 
+alias mcfetch fetch $*$ from pantry;put things except held things&worn things in vats;put things except held things&worn things on grill;put things except held things&worn things in fryer;put things except held things&worn things on griddle;mcingredients
+alias mcprep get all from grill&fryer&griddle&vats;put boxes on griddle;prepare all;put things in chutes;get things from surface;put things in chutes $*$;check appliances;check orders;mcingredients
+"begin the mission by "mcfetch rice,noodles" before fetching the first order, then do a few "mcfry" so you always have enough fried noodles and rice, after that its just a constant repition of mcfetch; mcprep and mcfetch <ingredients>.. good luck!
+
+

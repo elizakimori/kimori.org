@@ -1,0 +1,28 @@
+'pretty much see entire stolat, execute "stotour" from market center, mostly useful for when you are searching an npc or something 
+
+alias stotour stotour1
+alias stotour1 _stotour1;alias stotour stotour2;frimble type stotour to continue;
+alias stotour2 _stotour2;alias stotour stotour3;frimble type stotour to continue;
+alias stotour3 _stotour3;alias stotour stotour4;frimble type stotour to continue;
+alias stotour4 _stotour4;alias stotour stotour5;frimble type stotour to continue;
+alias stotour5 _stotour5;alias stotour stotour6;frimble type stotour to continue;
+alias stotour6 _stotour6;alias stotour stotour7;frimble type stotour to continue;
+alias stotour7 _stotour7;alias stotour stotour8;frimble type stotour to continue;
+alias stotour8 _stotour8;alias stotour stotour9;frimble type stotour to continue;
+alias stotour9 _stotour9;alias stotour stotour10;frimble type stotour to continue;
+alias stotour10 _stotour10;alias stotour stotour1;frimble type stotour to continue;
+
+alias _stotour1 w;w;ne;ne;n;n;ne;n;n;n;nw;w;nw;w;w;w;sw;s;sw;s;se;e;w;nw;n;ne;n;ne;e;e;e;
+alias _stotour2 n;n;n;n;m;s;s;e;se;e;se;e;se;e;e;se;se;s;s;s;s;e;e;e;
+alias _stotour3 s;sw;sw;s;s;sw;sw;n;n;n;nw;nw;n;n;ne;n;nw;n;n;n;w;nw;w;nw;s;se;se;s;s;s;sw;sw;w;sw;w;sw;s;w;w;nw;nw;w;nw;nw;n;n;n;w;w;
+alias _stotour4 nw;w;s;se;e;se;s;s;se;s;se;s;s;s;s;se;s;ne;e;e;se;e;e;s;w;w;w;nw;nw;sw;s;se;se;s;s;
+alias _stotour5 e;n;ne;n;e;s;e;n;s;se;s;w;w;s;s;w;nw;s;s;e;e;e;e;nw;e;n;n;e;
+alias _stotour6 s;s;s;sw;w;w;w;w;w;w;w;nw;n;n;nw;n;n;e;se;se;e;s;s;s;s;w;w;nw;w;nw;nw;n;n;ne;ne;m;
+alias _stotour7 nw;n;ne;nw;n;m;w;nw;n;n;se;m;e;e;se;e;e;e;e;e;e;ne;e;e;n;
+alias _stotour8 e;s;e;se;s;s;sw;w;w;w;sw;s;se;ne;ne;e;e;ne;ne;n;ne;ne;nw;nw;w;w;w;sw;w;
+alias _stotour9 e;ne;e;e;e;e;ne;ne;m;e;e;e;n;n;n;e;ne;n;n;nw;ne;n;nw;sw;nw;w;w;w;nw;w;w;se;e;e;se;se;n;n;e;se;se;sw;s;se;se;sw;w;
+alias _stotour10 n;nw;nw;nw;w;nw;w;nw;w;w;nw;nw;w;w;s;s;e;se;e;se;e;se;e;e;se;se;s;s;m;w;w;w;w;w;sw;sw;w;sw;w;sw;s;e;e;e;
+
+
+
+

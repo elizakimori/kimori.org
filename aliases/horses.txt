@@ -1,0 +1,7 @@
+' some horse related aliases, probably uses stuff from dependencies.txt
+
+'fillhorse try to cram as much oats and hay into a horse as it will take, execute in a place that sells hay and oats 
+alias fillhorse buy oats;buy hay;2x palm oats&hay from burlap sack on me except empty sacks on me;bury empty burlap sacks on me;5x stash 4 handfuls of oats&4 handfuls of hay in my horse;stash hay&oats in my horse;bury hay on me&oats on me
+
+'feedhorse [handfuls] [targethorse] default is giving 1 oats and 1 hay to my horse
+alias feedhorse retrieve $arg1:1$ handful of hay&$arg1:1$ handful of oats from $arg2:my horse$;feed hay&oats to $arg2:my horse$;assess $arg2:my horse$

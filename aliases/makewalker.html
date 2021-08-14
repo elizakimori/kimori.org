@@ -1,0 +1,59 @@
+<html>
+	<head><title>discworld mud make speedwalker</title></head>
+	<body>
+		<h4>Alias Looper<h4>
+				<h5>Interruptable alias creator for <a href="https://discworld.starturtle.net/lpc/decafmud/web_client.html" target="_blank">Discworld MUD</a>, a terry pratchett inspired, multi user, interactive story book.</h5>
+		<tt> type the alias in first box, then choose the new alias name and press the button. <br>
+					After that you can just repeatedly type in your chosen alias name to loop through every step of the alias.<br>
+<br>
+
+<hr>
+input command list:
+<br>
+<textarea rows=13 cols=80 id=speedwalk>remote $arg:last_told$ tastes of regret.
+remote $arg:last_told$ tastes of porcupines.
+remote $arg:last_told$ tastes of licorice.
+remote $arg:last_told$ tastes salty on your tongue.
+remote $arg:last_told$ tastes of the morning after.
+remote $arg:last_told$ tastes of forgotten dreams.
+remote $arg:last_told$ tastes of you.</textarea>
+		<br>alias name: <input id=cmdname value=tasteof ></input>
+		<br><input type=button onclick=doIt(); value=go! ></input>
+		<hr>
+		<br><textarea rows=40 cols=80 id=output readonly=readonly>*output*</textarea>
+	<script>
+function _(id) { 
+	return document.getElementById(id);
+}
+RegExp.quote = function(str) {
+	 //from: https://stackoverflow.com/questions/494035/how-do-you-use-a-variable-in-a-regular-expression
+	      return str.replace(/([.?*+^$[\]\\(){}|-])/g, "\\$1");
+	  };
+
+function doIt() {
+	debugger;
+	var escapestring = "--NOT--A++NEW-+L+INE--";
+//fixme: escape escapestring	_('speedwalk').value = _('speedwalk').value.replace(escapestring,escapestring+escapestring);
+	var ex = new RegExp("\\\\;","g");
+	var rex = new RegExp(RegExp.quote(escapestring),"g");
+	_('speedwalk').value = _('speedwalk').value.replace(ex,escapestring);
+//	_('speedwalk').value = _('speedwalk').value.replace(/\r?\n/g,';');
+	_('speedwalk').value = _('speedwalk').value.replace(/\r?\n/g,';');
+	var steps  = _('speedwalk').value.split(';');
+	var cmdname = _('cmdname').value;
+	_('speedwalk').value = _('speedwalk').value.replace(rex,"\\;");
+	var result = "' run "+cmdname+" to cycle through each step of the alias, use "+ cmdname + "reset it to the first step.\n\nalias "+cmdname+" _"+cmdname+"0 $*$;\n";
+	for (var i=0, l=steps.length;i<l;i++) { 
+	//	if (steps[i].length < 1) continue;
+		//var result = result + "alias _"+cmdname+i+" "+steps[i]+";alias "+cmdname+" _"+cmdname+(i<steps.length-2?(i+1):0)+" $*$;\n";
+		result = result + "alias _"+cmdname+i+" "+steps[i]+";alias "+cmdname+" _"+cmdname+(i+1)+" \\$*\\$;\n";
+	}
+	result = result + "alias _"+cmdname+i+" "+steps[0]+";alias "+cmdname+" _"+cmdname+(1)+" \\$*\\$;\n";
+	result = result + "alias "+cmdname+"reset frimble resetting "+cmdname+".;alias "+cmdname+" _"+cmdname+"0 \\$*\\$\\;\n";
+
+	result = result.replace(rex,"\\;");
+	_('output').value=result;
+}
+	</script>
+	</body>
+</html>

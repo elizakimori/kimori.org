@@ -1,0 +1,30 @@
+alias go alias _go $*$; _go
+'"go" allows you to type speedwalks like "go e;e;e;s;w;search;e" or whotnot
+
+alias spamon alias w $*$\;west\;; alias n $*$\;north\;; alias e $*$\;east\;; alias s $*$\;south\;; alias nw $*$\;northwest\;; alias ne $*$\;northeast\;; alias sw $*$\;southwest\;; alias se $*$\;southeast\;;
+alias spamoff unalias w;unalias e;unalias n;unalias s;unalias ne;unalias nw;unalias sw;unalias se; $*$
+'"spamon and spamoff" enable you to execute a command every time you move, handy to spam a command during a speedwalk, use it like "spamon kill natives", and turn it off again with "spamoff"
+
+alias todo $ifarg:quests show details for $*$;quests show item for $*$;quests show solution for $*$;$else$;quests list all;quests list uncompleted Ankh-Morpork;frimble type 'todo <questname>' for details;$endif$
+'"todo" shows you unattained quests and quest details:
+
+alias todoa $ifarg:ach details $*$;$else$ach unattained small;ach list ankh-morpork;frimble type 'todoa <achievement>' for details.$endif$
+'"todoa" - easily navigate achievements
+
+alias 1x $*$;
+alias 2x $*$;$*$;
+alias 3x $*$;$*$;$*$;
+alias 4x $*$;$*$;$*$;$*$;
+alias 5x $*$;$*$;$*$;$*$;$*$;
+alias 6x $*$;$*$;$*$;$*$;$*$;$*$;
+alias 7x $*$;$*$;$*$;$*$;$*$;$*$;$*$;
+alias 8x $*$;$*$;$*$;$*$;$*$;$*$;$*$;$*$;
+alias 9x $*$;$*$;$*$;$*$;$*$;$*$;$*$;$*$;$*$;
+alias 10x $*$;$*$;$*$;$*$;$*$;$*$;$*$;$*$;$*$;$*$;
+'"1x, 2x, 3x,..." repeats so you can spam the same command a couple times in a row; eg "4x search gold"
+
+alias ruler $ifarg:;frimble $*$;frimble 1...|...10....|...20....|...30....|...40....|...50....|...60....|...70....|...80....|...90....|..100....|..110....|..120....|..130....|..140....|..150....|..160;$else$;frimble 1...|...10....|...20....|...30....|...40....|...50....|...60....|...70....|...80;$endif$
+'"ruler" displays a nice little 80 char ascii ruler, run it with an argument to measure wordlength
+
+
+hsay

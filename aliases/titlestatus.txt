@@ -1,0 +1,131 @@
+'not an alias, but paste all this into the mud to get a nice overview of your status in most achievements that grant you a title
+'this will take some time to execute :)
+'if you want it as an alias, paste it into one using 'ealias'
+frimble %^BOLD%^%^UNDERLINE%^A Star Is Born:%^RESET%^
+ach progress A Star Is Born 
+frimble %^BOLD%^%^UNDERLINE%^Ancient:%^RESET%^
+ach progress Ancient 
+frimble %^BOLD%^%^UNDERLINE%^Arachnophobia:%^RESET%^
+ach progress Arachnophobia 
+frimble %^BOLD%^%^UNDERLINE%^Aubergenocide:%^RESET%^
+ach progress Aubergenocide 
+frimble %^BOLD%^%^UNDERLINE%^Axe Mastery:%^RESET%^
+ach progress Axe Mastery 
+frimble %^BOLD%^%^UNDERLINE%^Champion:%^RESET%^
+ach progress Champion 
+frimble %^BOLD%^%^UNDERLINE%^Coleslawter:%^RESET%^
+ach progress Coleslawter 
+frimble %^BOLD%^%^UNDERLINE%^Competent Professional:%^RESET%^
+ach progress Competent Professional 
+frimble %^BOLD%^%^UNDERLINE%^Cultural Attache:%^RESET%^
+ach progress Cultural Attache 
+frimble %^BOLD%^%^UNDERLINE%^Dagger Mastery:%^RESET%^
+ach progress Dagger Mastery 
+frimble %^BOLD%^%^UNDERLINE%^Dagger Mastery:%^RESET%^
+ach progress Dagger Mastery 
+frimble %^BOLD%^%^UNDERLINE%^Dawn Of The World:%^RESET%^
+ach progress Dawn Of The World 
+frimble %^BOLD%^%^UNDERLINE%^Elementalist:%^RESET%^
+ach progress Elementalist 
+frimble %^BOLD%^%^UNDERLINE%^Energetic:%^RESET%^
+ach progress Energetic 
+frimble %^BOLD%^%^UNDERLINE%^Founder Of The Feast:%^RESET%^
+ach progress Founder Of The Feast 
+frimble %^BOLD%^%^UNDERLINE%^Gifted:%^RESET%^
+ach progress Gifted 
+frimble %^BOLD%^%^UNDERLINE%^Holy Butcher:%^RESET%^
+ach progress Holy Butcher 
+frimble %^BOLD%^%^UNDERLINE%^Living In Fear:%^RESET%^
+ach progress Living In Fear 
+frimble %^BOLD%^%^UNDERLINE%^Mace Mastery:%^RESET%^
+ach progress Mace Mastery 
+frimble %^BOLD%^%^UNDERLINE%^Master Debater:%^RESET%^
+ach progress Master Debater 
+frimble %^BOLD%^%^UNDERLINE%^Master Duelist:%^RESET%^
+ach progress Master Duelist 
+frimble %^BOLD%^%^UNDERLINE%^Master Undresser:%^RESET%^
+ach progress Master Undresser 
+frimble %^BOLD%^%^UNDERLINE%^Masterful:%^RESET%^
+ach progress Masterful 
+frimble %^BOLD%^%^UNDERLINE%^Medic:%^RESET%^
+ach progress Medic 
+frimble %^BOLD%^%^UNDERLINE%^Morbid Attraction:%^RESET%^
+ach progress Morbid Attraction 
+frimble %^BOLD%^%^UNDERLINE%^Nimble:%^RESET%^
+ach progress Nimble 
+frimble %^BOLD%^%^UNDERLINE%^Nurse:%^RESET%^
+ach progress Nurse 
+frimble %^BOLD%^%^UNDERLINE%^Nurse:%^RESET%^
+ach progress Nurse 
+frimble %^BOLD%^%^UNDERLINE%^Obsolete:%^RESET%^
+ach progress Obsolete 
+frimble %^BOLD%^%^UNDERLINE%^Old Age:%^RESET%^
+ach progress Old Age 
+frimble %^BOLD%^%^UNDERLINE%^Old Age:%^RESET%^
+ach progress Old Age 
+frimble %^BOLD%^%^UNDERLINE%^Old Age:%^RESET%^
+ach progress Old Age 
+frimble %^BOLD%^%^UNDERLINE%^One Person Crimewave:%^RESET%^
+ach progress One Person Crimewave 
+frimble %^BOLD%^%^UNDERLINE%^Part Of The Ambiance:%^RESET%^
+ach progress Part Of The Ambiance 
+frimble %^BOLD%^%^UNDERLINE%^Part Of The Furniture:%^RESET%^
+ach progress Part Of The Furniture 
+frimble %^BOLD%^%^UNDERLINE%^Path To Ascension:%^RESET%^
+ach progress Path To Ascension 
+frimble %^BOLD%^%^UNDERLINE%^Perpetual Stiffy:%^RESET%^
+ach progress Perpetual Stiffy 
+frimble %^BOLD%^%^UNDERLINE%^Pole Mastery:%^RESET%^
+ach progress Pole Mastery 
+frimble %^BOLD%^%^UNDERLINE%^Pole Mastery:%^RESET%^
+ach progress Pole Mastery 
+frimble %^BOLD%^%^UNDERLINE%^Prehistoric:%^RESET%^
+ach progress Prehistoric 
+frimble %^BOLD%^%^UNDERLINE%^Professional Athlete:%^RESET%^
+ach progress Professional Athlete 
+frimble %^BOLD%^%^UNDERLINE%^Project Mayhem:%^RESET%^
+ach progress Project Mayhem 
+frimble %^BOLD%^%^UNDERLINE%^Quite Literate:%^RESET%^
+ach progress Quite Literate 
+frimble %^BOLD%^%^UNDERLINE%^Rolling In Rhinu:%^RESET%^
+ach progress Rolling In Rhinu 
+frimble %^BOLD%^%^UNDERLINE%^Senile:%^RESET%^
+ach progress Senile 
+frimble %^BOLD%^%^UNDERLINE%^Shieldmastery:%^RESET%^
+ach progress Shieldmastery 
+frimble %^BOLD%^%^UNDERLINE%^Shieldmastery:%^RESET%^
+ach progress Shieldmastery 
+frimble %^BOLD%^%^UNDERLINE%^Sick Freak:%^RESET%^
+ach progress Sick Freak 
+frimble %^BOLD%^%^UNDERLINE%^Stuff Of Legends:%^RESET%^
+ach progress Stuff Of Legends 
+frimble %^BOLD%^%^UNDERLINE%^Swordmastery:%^RESET%^
+ach progress Swordmastery 
+frimble %^BOLD%^%^UNDERLINE%^Swordmastery:%^RESET%^
+ach progress Swordmastery 
+frimble %^BOLD%^%^UNDERLINE%^The Ever Watching Eye:%^RESET%^
+ach progress The Ever Watching Eye 
+frimble %^BOLD%^%^UNDERLINE%^Tongue Twister:%^RESET%^
+ach progress Tongue Twister 
+frimble %^BOLD%^%^UNDERLINE%^Touch Of Glod:%^RESET%^
+ach progress Touch Of Glod 
+frimble %^BOLD%^%^UNDERLINE%^Unexpected Guest:%^RESET%^
+ach progress Unexpected Guest 
+frimble %^BOLD%^%^UNDERLINE%^Unstoppable:%^RESET%^
+ach progress Unstoppable 
+frimble %^BOLD%^%^UNDERLINE%^Versatile:%^RESET%^
+ach progress Versatile 
+frimble %^BOLD%^%^UNDERLINE%^Virtuoso:%^RESET%^
+ach progress Virtuoso 
+frimble %^BOLD%^%^UNDERLINE%^Walking Dead:%^RESET%^
+ach progress Walking Dead 
+frimble %^BOLD%^%^UNDERLINE%^Wealth Of Nations:%^RESET%^
+ach progress Wealth Of Nations 
+frimble %^BOLD%^%^UNDERLINE%^Major Miner:%^RESET%^
+ach progress Major Miner 
+frimble %^BOLD%^%^UNDERLINE%^Maiden Voyage:%^RESET%^
+ach progress Maiden Voyage 
+frimble %^BOLD%^%^UNDERLINE%^Unsinkable Captain:%^RESET%^
+ach progress Unsinkable Captain 
+frimble %^BOLD%^%^UNDERLINE%^Stormrider:%^RESET%^
+ach progress Stormrider 

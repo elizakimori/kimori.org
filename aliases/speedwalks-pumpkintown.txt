@@ -1,0 +1,21 @@
+'paste this into the mud after fully arriving in pt (after you woke up or skipped the pumpkin fall) and then run ptwalk to start walkthrough
+
+alias ptwalk1 term ansi;alias _ln alias \$2*\$\;alias set category \$2\$ \$1\$\;;alias set category _ln Z;_ln UI go alias _go \$*\$\; _go\;;_ln Z _2x \$*\$\;\$*\$\;;_ln Z _3x \$*\$\;\$*\$\;\$*\$\;;_ln Z _5x \$*\$\;\$*\$\;\$*\$\;\$*\$\;\$*\$\;;_ln Z _frz frimble zZ %^ORANGE%^\$*\$%^RESET%^\;;_ln Z sb score brief\;;_ln Z _ack _3x _frz \$*\$\;'yes\;_3x _frz \$*\$\;'yes\;_3x _frz \$*\$\;;_ln Z _cs capture scroll\;;_ln Z _oo options output;_ln Z _pb put \$arg:all except coins\$ in bucket;_ln Z _db get \$arg:random thing\$ from bucket;_ln Z _ib identify box \$*\$ in bucket as _bx\$*\$;_ln Z _lg frimble %^BOLD%^%^B_WHITE%^%^BLACK%^ [[ %^B_CYAN%^ \$1\$ %^B_WHITE%^ \$2*\$ ]] %^RESET%^;_ln Z _bx _db \$1\$\;hold \$1\$\;use \$1\$ on \$2*\$\;_5x _frz\;_pb \$1\$\;l picture\;_pb it\;;_oo map lookcity = left;_oo map look = left;_oo shortinlong = on;_oo usercolour = on;_oo accent = mangle;rows 50000;_lg SETUP env done, let's start the show (1/4)  \;D;bury guide on me,map on me;climb window;_pb;go e\;se\;s;_ack;n;_cs;sw;_cs;ne;n;_cs;_ack ELSABETH;_3x go sb\;'sorry lost box\;frz\;_pb box;_ib 1;_ib 2;_ib 3;s;nw;_cs;w;_cs;n;_cs;e;_cs;s;se;ne;_cs;sw;e;_cs;w;se;_cs;nw;s;give scroll to alfred;_2x _frz;_bx _bx3 alfred;n;alias ptwalk ptwalk2;_lg FIN END OF PART ONE TYPE ptwalk TO CONTINUE;
+
+alias ptwalk2 _lg RESUME PART TWO;ne;_bx _bx1 shifty;'yes;_frz;sw;nw;n;e;get bottle from bucket;sell bottle;u;shoplift spear;hold spear;d;w;s;se;e;_bx _bx2 headcrusher;'yes;_5x _frz;_3x _frz;warcry dus;_5x _frz;_2x _frz;impale headcrusher with spear;_4 _frz ;w;se;_bx _bx2 beladon;_db _bx2;offer _bx2 to sandelfon ;_3x _frz;nw;sw;_bx _bx1 sniggle;'yes;_frz;_pb pin;'lost pin;_2x _sb;skewer hat on sniggle with pin;_sb;persuade hat;_frz;skewer hat on sniggle with pin;_3x _frz;ne;alias ptwalk ptwalk3;_lg FIN END OF PART 2, TYPE ptwalk TO CONTINUE;
+
+alias ptwalk3 _lg RESUME PART THREE;n;_3x _frz;get picture from bucket;give picture to elsabeth;_3x _frz;drop picture;get picture from bucket;give picture to elsabeth;_3x _frz;drop picture;get picture from bucket;give picture to elsabeth;_3x _frz;drop picture;get picture from bucket;give picture to elsabeth;_3x _frz;drop picture;get picture from bucket;give picture to elsabeth;_3x _frz;drop picture;get picture from bucket;give picture to elsabeth;_3x _frz;drop picture;get picture from bucket;give picture to elsabeth;_3x _frz;drop picture;s;nw;w;s;kill pumpkin;alias ptwalk ptwalk4;_lg END PART THREE, TYPE ptwalk TO CONTINE;
+
+alias ptwalk4 _lg RESUME PART FOUR;s;n;ne;e;u;buy jagged sword;d;w;s;se;ne;give spear to marlow;hold sword;_frz;sw;e;_5x _frz;_5x _frz;_2x _frz;behead headcrusher with weapon;w;nw;w;s;kill pumpkin;alias ptwalk ptwalk5;_lg END PART FOUR, TYPE ptwalk TO CONTINUE
+
+alias ptwalk5 _lg RESUME PART FIVE;s;n;ne;e;unhold sword;sell sword;u;buy mace;d;w;s;se;e;_5x _frz;hold mace;crush headcrusher with mace;_frz;w;nw;w;s;_db pin;hold mace&pin;kill pumpkin;alias ptwalk _lg DONE walkthrough is finished, enjoy;_lg END PART FIVE
+
+alias ptwalk ptwalk1
+alias set category ptwalk Z
+alias set category ptwalk1 Z
+alias set category ptwalk2 Z
+alias set category ptwalk3 Z
+alias set category ptwalk4 Z
+alias set category ptwalk5 Z
+
+"execute 'ptwalk' after arriving in pt (after you woke up or skipped the pumpkin fall) to start walkthrough
