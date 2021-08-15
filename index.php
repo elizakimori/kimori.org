@@ -68,7 +68,7 @@ The Discworld MUD<br>
 </center>
 <br>
 <br>
-<a href="https://discworld.starturtle.net">&nbsp;&gt;&nbsp;play now</a><br>
+<a href="https://discworld.starturtle.net/lpc/decafmud/web_client.html">&nbsp;&gt;&nbsp;play now</a><br>
 </div>
 	<a href="mcsweeney/">mcsweeney menu alias generator</a><br/>
 	<a href="aliases/speedwalks-pumpkintown.txt">Pumpkin town walkthrough alias (paste in after skip, run 'ptwalk' to execute)</a><br/>
