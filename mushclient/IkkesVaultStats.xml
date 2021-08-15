@@ -56,6 +56,26 @@
    variable="nellaTrigger2Variable"
   >
   </trigger> 
+<trigger
+   custom_colour="0"
+   enabled="y"
+   match="The drawer is *"
+   name="thellaTrigger2"
+   script="thellaTriggerScript"
+   sequence="100"
+   variable="thellaTrigger2Variable"
+  >
+  </trigger> 
+<trigger
+   custom_colour="0"
+   enabled="y"
+   match="The single open drawer is sticking*"
+   name="thellaTrigger2"
+   script="thellaTriggerScript"
+   sequence="100"
+   variable="thellaTrigger2Variable"
+  >
+  </trigger> 
 </triggers>
 <aliases>
   <alias
@@ -88,11 +108,20 @@ var state = {
 			"rawinv": "",
 			"range": [-1, -1],
 			"toggle": true
+		},
+		"thella": {
+			"name": "thella",
+			"fakematches": [
+				"The single open drawer is sticking ",
+			],
+			"rawinv": "",
+			"range": [-1, -1],
+			"toggle": true
 		}
-
 	}
 };
-
+//The single open drawer is sticking 
+//The drawer is almost empty except for eighteen badly-rolled cigarettes
 
 		// "The large wooden drawer is * with *"
 		// "This is a large drawer made of dark brown wood."l
@@ -132,6 +161,7 @@ function ShowState(){
 	var msg = "";
 	msg += "nella: " + GetState().vaults["nella"].rawinv + "\n";
 	msg += "jonas: " + GetState().vaults["jonas"].rawinv + "\n";
+	msg += "thella: " + GetState().vaults["thella"].rawinv + "\n";
 	world.Note(msg);
 }
 
@@ -142,6 +172,9 @@ vaultTriggerScript("nella");
 }
 function jonasTriggerScript() { 
 vaultTriggerScript("jonas");
+}
+function thellaTriggerScript() {
+vaultTriggerScript("thella");
 }
 function vaultsScript() {
 GetState();
