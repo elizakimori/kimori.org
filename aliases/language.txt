@@ -1,0 +1,12 @@
+"a language learning helper, add the following readthings alias first, then set it up so its executed with every move, make sure you are speaking the language you want to TM
+alias readthings read signs&handbills&boards&boards on living things&books&posters&writings&signposts&notes&pictograms&lanterns&grafitti&benches&things in worn things&papers
+
+'now to set it up that it tries that with every room change, use the following spamlang alias, and its dependencies underneath
+'spamlang to start learning languages, spamoff to stop
+alias spamlang spamon readthings
+alias spamoff unalias w;unalias e;unalias n;unalias s;unalias ne;unalias nw;unalias sw;unalias se; 
+
+'the command that makes above work, you can use it to execute arbitrary commands with every move by executing "spamon <arbitrarycommand>", again using "spamoff" to turn it off
+alias spamon alias w $*$\;west\;; alias n $*$\;north\;; alias e $*$\;east\;; alias s $*$\;south\;; alias nw $*$\;northwest\;; alias ne $*$\;northeast\;; alias sw $*$\;southwest\;; alias se $*$\;southeast\;;
+
+
